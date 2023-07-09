@@ -1,4 +1,5 @@
 Feature: Login
+
   Scenario: Administrator login
     Given I am on the login page
     When I enter valid administrator credentials
