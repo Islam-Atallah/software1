@@ -15,6 +15,6 @@ Feature: House information
     Given if the housing is student
     When  The tenant needs to tenant housing
     Then I show  the general data about people who live in it
-    |name|values|
-    |ages|values|
-    |university majors|values|
+    |name|ages|university majors|
+    |islam|21 |alnajah |
+

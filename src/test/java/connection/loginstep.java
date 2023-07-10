@@ -5,8 +5,12 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class loginstep {
+    myclass str1;
     @Given("I am on the login page")
-    public void iAmOnTheLoginPage() {
+    public void iAmOnTheLoginPage( String str) {
+
+
+
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
@@ -34,7 +38,8 @@ public class loginstep {
     }
 
     @When("I enter valid owner credentials")
-    public void iEnterValidOwnerCredentials() {
+    public void iEnterValidOwnerCredentials( ) {
+
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
